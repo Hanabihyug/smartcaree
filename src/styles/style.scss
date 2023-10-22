@@ -1,0 +1,69 @@
+@import '~bootstrap/scss/bootstrap';
+@import 'navbar';
+@import 'base';
+@import 'articles-page';
+@import 'article-page';
+@import 'childs-profile-page';
+@import 'child-profile-card';
+@import 'hero-section';
+@import 'add-child-page';
+@import 'base';
+@import 'detail-child-growth-page';
+@import 'detail-child-development-page';
+@import 'footer';
+@import 'growth-page';
+@import 'back-button';
+@import 'app-bar';
+@import 'top-bar';
+@import 'survey-card';
+@import 'development-survey-page';
+@import 'feature-section';
+@import 'authentication-form';
+@import 'loading-page';
+@import 'loading-item';
+@import 'not-found-page';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+$font: 'Poppins',
+sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: $color-neutral-dark;
+  font-family: $font;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: $color-main-bg;
+}
+
+main {
+  background: $color-main-bg;
+  min-height: 90vh;
+}
+
+.main-content {
+  padding: 0 1rem;
+  margin-bottom: 15vh;
+}
+
+ul {
+  li {
+    list-style: none;
+  }
+}
+
+input {
+  all: unset;
+}
+
+a,
+a:visited,
+a:hover {
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+}

@@ -1,0 +1,164 @@
+$color-primary: #3e6d9c;
+$color-primary-light: #b8e8fc;
+$color-primary-dark: #001253;
+
+$color-secondary: #fd841f;
+$color-secondary-light: #FFD384;
+$color-secondary-dark: #e14d2a;
+
+$color-tertiary: #C8FFD4;
+$color-tertiary-light: #F4FEF6;
+$color-tertiary-dark: #7FA487;
+
+$color-highlight-yellow: #fd841f;
+$color-highlight-green: #1ffd78;
+$color-highlight-red: #ED4245;
+
+$color-highlight-yellow-light: rgb(255, 167, 95);
+$color-highlight-green-light: #69ffa5;
+$color-highlight-red-light: #f69192;
+
+$color-highlight-yellow-dark: #bf5d0d;
+$color-highlight-green-dark: #0ba549;
+$color-highlight-red-dark: #aa1f21;
+
+$color-neutral-dark: #1e1e1e;
+$color-neutral-gray: #797979;
+$color-neutral-light: #ffffff;
+$color-main-bg: #E4FFEA;
+
+.swal2-container {
+  * {
+    overflow: visible;
+  }
+}
+
+.bg-primary {
+  background-color: $color-primary !important;
+}
+
+.card {
+  background-color: $color-primary-light;
+  border-radius: 15px;
+  border: none;
+  margin: 10px 0;
+  padding: 1rem .5rem;
+}
+
+.text-dark {
+  color: $color-neutral-dark;
+}
+
+.text-light {
+  color: $color-neutral-light;
+}
+
+.text-primary {
+  color: $color-primary;
+}
+
+.text-primary-dark {
+  color: $color-primary-dark;
+}
+
+.text-primary-light {
+  color: $color-primary-light;
+}
+
+.text-secondary {
+  color: $color-secondary;
+}
+
+.text-tertiary {
+  color: $color-tertiary;
+}
+
+.bg-light {
+  color: $color-neutral-light;
+}
+
+.btn {
+  border-radius: 1rem;
+  margin: .5rem 0;
+  padding: .5rem .5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: $color-secondary;
+  color: $color-neutral-light;
+  box-shadow: inset 0 -6px 0 0 $color-secondary-dark;
+  border: none;
+
+  &:hover {
+    background-color: $color-secondary-light;
+  }
+}
+
+.highlight {
+  &-yellow {
+    background-color: $color-highlight-yellow;
+  }
+
+  &-red {
+    background-color: $color-highlight-red;
+  }
+
+  &-green {
+    background-color: $color-highlight-green;
+  }
+
+  &-grey {
+    background-color: $color-neutral-gray;
+  }
+}
+
+.btn-secondary {
+  background-color: $color-primary;
+  color: $color-neutral-light;
+  box-shadow: inset 0 -6px 0 0 $color-primary-dark;
+  border: none;
+
+  &:hover {
+    background-color: $color-primary-light;
+  }
+}
+
+.btn-red {
+  background-color: $color-highlight-red;
+  color: $color-neutral-light;
+  box-shadow: inset 0 -6px 0 0 $color-highlight-red-dark;
+  border: none;
+
+  &:hover {
+    background-color: $color-highlight-red-light;
+  }
+}
+
+.btn-green {
+  background-color: $color-highlight-green;
+  color: $color-neutral-light;
+  box-shadow: inset 0 -6px 0 0 $color-highlight-green-dark;
+  border: none;
+
+  &:hover {
+    background-color: $color-highlight-green-light;
+  }
+}
+
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+  padding: .3rem 0;
+  margin: 0;
+}
